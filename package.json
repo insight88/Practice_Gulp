@@ -1,9 +1,21 @@
 {
-  "dependencies": {
-    "gulp-cli": "^2.3.0"
-  },
-  "name": "supergulp",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+    "dependencies": {
+        "del": "^5.1.0",
+        "gulp-cli": "^2.3.0"
+    },
+    "name": "supergulp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "gulp dev",
+        "build": "gulp build"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/register": "^7.10.5",
+        "gulp": "^4.0.2",
+        "gulp-pug": "^4.0.1"
+    }
 }
