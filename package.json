@@ -1,7 +1,8 @@
 {
     "dependencies": {
         "del": "^5.1.0",
-        "gulp-cli": "^2.3.0"
+        "gulp-cli": "^2.3.0",
+        "gulp-webserver": "^0.9.1"
     },
     "name": "supergulp",
     "version": "1.0.0",
